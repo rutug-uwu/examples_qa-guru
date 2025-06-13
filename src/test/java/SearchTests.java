@@ -11,5 +11,9 @@ public class SearchTests {
         $("#searchbox_input").setValue("selenide").pressEnter();
         $("[data-testid=result]").shouldHave(text("https://selenide.org"));
     }
+
+    private static String getMessage() {
+        return "Hello qa.guru";
+    }
 }
     
