@@ -12,3 +12,4 @@ public class SearchTests {
         $("[data-testid=result]").shouldHave(text("https://selenide.org"));
     }
 }
+    
