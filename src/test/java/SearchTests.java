@@ -8,7 +8,7 @@ public class SearchTests {
     @Test
     void successfulSearchTest() {
         open("https://duckduckgo.com/");
-        $("#searchbox_input").setValue("selenide").pressEnter();
+        $("#searchbox_input").setValue("ffffff").pressEnter();
         $("[data-testid=result]").shouldHave(text("https://selenide.org"));
     }
 }
